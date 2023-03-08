@@ -1,4 +1,4 @@
-# Quickly Set up kafka
+# Quickly Set up kafka via docker 
 
 Below are the commands to quickly setup kafka using docker.
 
@@ -26,3 +26,5 @@ docker run --rm --interactive ches/kafka kafka-console-producer.sh --topic topic
 
 
 I don't set up tools on my local, as docker is the easiest way to set up service/tool on demand. So, I am creating this repo to keep shortnote on setting up kafka on local.
+
+In case you want to set up without docker, follow https://medium.com/@dhareshwarganesh/apache-kafka-sql-ksql-f8f9c395a3d0 
